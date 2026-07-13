@@ -27,7 +27,7 @@
 | 이미지(T2I) | **GPT Image2** | 씬1~4.png (16:9) | 대체 도구: DALL·E 3, Ideogram. 씬4는 텍스트(브랜드명·슬로건·CTA) 직접 렌더 시도, 안정성 낮을 경우 후합성 |
 | 비디오(I2V) | **OpenAI Sora 2** | INV_scene01~04_video.mp4 | 정지이미지를 입력으로 한 I2V 변환(Veo 변환 프롬프트 별도 기록, 실제 대체 도구는 Kling·Pika·Runway) |
 | 오디오/음성 | **ElevenLabs** | audio/narration.mp3 | 4카피, 60대 여성 타겟에 맞춘 차분하고 신뢰감 있는 톤 |
-| 통합 편집 | ffmpeg(concat · 오디오 mux · 9:16 변환) | InVoice_ad_8s.mp4 · _9x16 | 컷 연결·오디오 레벨·비율 변환(생성은 전부 AI) |
+| 통합 편집 | ffmpeg(concat · 오디오 mux · 9:16 변환) | c1-2.mp4 · _9x16 | 컷 연결·오디오 레벨·비율 변환(생성은 전부 AI) |
 
 ---
 
